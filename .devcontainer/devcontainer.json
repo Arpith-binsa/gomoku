@@ -1,0 +1,11 @@
+{
+  "name": "Gomoku Game",
+  "image": "mcr.microsoft.com/devcontainers/python:3.9",
+  "postCreateCommand": "pip install -r requirements.txt",
+  "forwardPorts": [5000],
+  "portsAttributes": {
+    "5000": {
+      "visibility": "public"
+    }
+  }
+}
